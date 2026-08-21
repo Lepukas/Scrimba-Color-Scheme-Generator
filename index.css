@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+}
+
+#color-container,
+#hex-container {
+    display: flex;
+}
+
+#color{
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+
+#scheme,
+#color-btn {
+   background-color: white;
+   border-color: grey;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#color1,
+#color2,
+#color3,
+#color4,
+#color5 {
+    height: 300px;
+
+}
+
+#hex1,
+#hex2,
+#hex3,
+#hex4,
+#hex5 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#color1,
+#color2,
+#color3,
+#color4,
+#color5,
+#hex1,
+#hex2,
+#hex3,
+#hex4,
+#hex5 {
+    flex: 0.5;
+}
+
+#color1{
+    background-color: #F55A5A;
+}
+
+#color2{
+    background-color: #2B283A;
+}
+
+#color3{
+    background-color: #FBF3AB;
+}
+
+#color4{
+    background-color: #AAD1B6;
+}
+
+#color5{
+    background-color: #A626D3;
+}
